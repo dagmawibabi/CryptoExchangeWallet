@@ -1,5 +1,6 @@
 import 'package:cryptowallet/pages/homePage.dart';
 import 'package:cryptowallet/pages/loadingPage.dart';
+import 'package:cryptowallet/pages/qrScannerPage.dart';
 import 'package:cryptowallet/pages/signInPage.dart';
 import 'package:cryptowallet/pages/signUpPage.dart';
 import 'package:cryptowallet/pages/transactionPage.dart';
@@ -35,6 +36,7 @@ class _MyAppState extends State<MyApp> {
         "signOutPage": (context) => SignUpPage(),
         "homePage": (context) => HomePage(),
         "transactionPage": (context) => TransactionPage(),
+        "qrScannerPage": (context) => QRScannerPage(),
       },
     );
   }
