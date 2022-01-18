@@ -29,7 +29,7 @@ class _MyAppState extends State<MyApp> {
     );
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: "homePage",
+      initialRoute: "/",
       routes: {
         "/": (context) => LoadingPage(),
         "signInPage": (context) => SignInPage(),
