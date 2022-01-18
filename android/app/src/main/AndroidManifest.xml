@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.cryptowallet">
+   <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="cryptowallet"
+        android:label="Crypto Wallet"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
